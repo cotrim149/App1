@@ -34,5 +34,12 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    [self.txtNome resignFirstResponder];
+    [self.txtCurso resignFirstResponder];
+    [self.txtEmail resignFirstResponder];
+    [self.txtTelefone resignFirstResponder];
+    [self.txtUniversidade resignFirstResponder];
+}
 
 @end

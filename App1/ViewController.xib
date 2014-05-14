@@ -6,6 +6,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
             <connections>
+                <outlet property="txtCurso" destination="PyQ-ON-cAE" id="ms0-3U-MHT"/>
+                <outlet property="txtEmail" destination="d0Z-MV-4wd" id="dV1-Ho-gQa"/>
+                <outlet property="txtNome" destination="Hh5-qI-6dE" id="C57-8y-B3v"/>
+                <outlet property="txtTelefone" destination="EKZ-eZ-jDg" id="1wv-n1-f3I"/>
+                <outlet property="txtUniversidade" destination="YmZ-Ps-If4" id="Mqz-eo-xC6"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -109,6 +114,12 @@
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PyQ-ON-cAE">
+                    <rect key="frame" x="97" y="347" width="170" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
