@@ -1,19 +1,18 @@
 //
-//  ViewController.m
+//  ViewConfirmacao.m
 //  App1
 //
 //  Created by Victor de Lima on 14/05/14.
 //  Copyright (c) 2014 Victor de Lima. All rights reserved.
 //
 
-#import "ViewController.h"
 #import "ViewConfirmacao.h"
 
-@interface ViewController ()
+@interface ViewConfirmacao ()
 
 @end
 
-@implementation ViewController
+@implementation ViewConfirmacao
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -35,16 +34,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-- (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
-    [self.txtNome resignFirstResponder];
-    [self.txtCurso resignFirstResponder];
-    [self.txtEmail resignFirstResponder];
-    [self.txtTelefone resignFirstResponder];
-    [self.txtUniversidade resignFirstResponder];
-}
--(IBAction)clickEnviar:(id)sender{
-    ViewConfirmacao *segundaTela = [[ViewConfirmacao alloc] init];
-    [self presentViewController:segundaTela animated:YES completion:nil];
+
+-(IBAction)clickOK:(id)sender{
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end

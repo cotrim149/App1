@@ -8,13 +8,24 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+
+
 @implementation AppDelegate
+
+@synthesize navController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    
+    
+    
     // Override point for customization after application launch.
     ViewController *root = [[ViewController alloc] init];
+    
+    
+    
     
     [self.window setRootViewController:root];
     

@@ -15,4 +15,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *txtUniversidade;
 @property (weak, nonatomic) IBOutlet UITextField *txtCurso;
 
+-(IBAction)clickEnviar:(id)sender;
+
 @end

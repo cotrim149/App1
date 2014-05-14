@@ -21,6 +21,8 @@
 		9F9CE39B1923E48C00CD4ECB /* App1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CE39A1923E48C00CD4ECB /* App1Tests.m */; };
 		9F9CE3A71923E4C600CD4ECB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CE3A51923E4C600CD4ECB /* ViewController.m */; };
 		9F9CE3A81923E4C600CD4ECB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F9CE3A61923E4C600CD4ECB /* ViewController.xib */; };
+		9F9CE3AC1924081E00CD4ECB /* ViewConfirmacao.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CE3AA1924081E00CD4ECB /* ViewConfirmacao.m */; };
+		9F9CE3AD1924081E00CD4ECB /* ViewConfirmacao.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F9CE3AB1924081E00CD4ECB /* ViewConfirmacao.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		9F9CE3A41923E4C600CD4ECB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9F9CE3A51923E4C600CD4ECB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9F9CE3A61923E4C600CD4ECB /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		9F9CE3A91924081E00CD4ECB /* ViewConfirmacao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewConfirmacao.h; sourceTree = "<group>"; };
+		9F9CE3AA1924081E00CD4ECB /* ViewConfirmacao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewConfirmacao.m; sourceTree = "<group>"; };
+		9F9CE3AB1924081E00CD4ECB /* ViewConfirmacao.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewConfirmacao.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +87,9 @@
 		9F9CE3691923E48C00CD4ECB = {
 			isa = PBXGroup;
 			children = (
+				9F9CE3A91924081E00CD4ECB /* ViewConfirmacao.h */,
+				9F9CE3AA1924081E00CD4ECB /* ViewConfirmacao.m */,
+				9F9CE3AB1924081E00CD4ECB /* ViewConfirmacao.xib */,
 				9F9CE3A41923E4C600CD4ECB /* ViewController.h */,
 				9F9CE3A51923E4C600CD4ECB /* ViewController.m */,
 				9F9CE3A61923E4C600CD4ECB /* ViewController.xib */,
@@ -228,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F9CE3801923E48C00CD4ECB /* InfoPlist.strings in Resources */,
+				9F9CE3AD1924081E00CD4ECB /* ViewConfirmacao.xib in Resources */,
 				9F9CE3A81923E4C600CD4ECB /* ViewController.xib in Resources */,
 				9F9CE3881923E48C00CD4ECB /* Images.xcassets in Resources */,
 			);
@@ -249,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F9CE3A71923E4C600CD4ECB /* ViewController.m in Sources */,
+				9F9CE3AC1924081E00CD4ECB /* ViewConfirmacao.m in Sources */,
 				9F9CE3861923E48C00CD4ECB /* AppDelegate.m in Sources */,
 				9F9CE3821923E48C00CD4ECB /* main.m in Sources */,
 			);
