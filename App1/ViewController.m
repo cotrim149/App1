@@ -42,7 +42,46 @@
     [self.txtTelefone resignFirstResponder];
     [self.txtUniversidade resignFirstResponder];
 }
+
+-(IBAction)limpaFields:(id)sender{
+    self.txtNome.text = @"";
+    self.labelIdade.text = @"-";
+    self.txtEmail.text = @"";
+    self.txtTelefone.text = @"";
+    self.txtUniversidade.text = @"";
+    self.txtCurso.text = @"";
+}
+
+-(IBAction)mudaIdade:(id)sender{
+    UISlider *slider = (UISlider *)sender;
+    int val = slider.value;
+    self.labelIdade.text = [NSString stringWithFormat:@"%d",val];
+    
+}
+
 -(IBAction)clickEnviar:(id)sender{
+    
+    NSString* nome = self.txtNome.text;
+    NSString* email = self.txtEmail.text;
+    NSString* idade = self.labelIdade.text;
+    NSString* telefone = self.txtTelefone.text;
+    NSString* universidade = self.txtUniversidade.text;
+    NSString* curso = self.txtCurso.text;
+    
+    NSString* dir = @"/Users/cotrim/Desktop/registros.plist";
+    
+    
+    NSMutableDictionary* aluno = [[NSMutableDictionary alloc] init];
+
+    [aluno setValue:nome forKey:@"nome"];
+    [aluno setValue:email forKey:@"e-mail"];
+    [aluno setValue:idade forKey:@"idade"];
+    [aluno setValue:telefone forKey:@"telefone"];
+    [aluno setValue:universidade forKey:@"universidade"];
+    [aluno setValue:curso forKey:@"curso"];
+
+    [aluno writeToFile:dir atomically:YES];
+    
     ViewConfirmacao *segundaTela = [[ViewConfirmacao alloc] init];
     [self presentViewController:segundaTela animated:YES completion:nil];
 }

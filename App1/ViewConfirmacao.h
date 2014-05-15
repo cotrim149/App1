@@ -12,4 +12,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *btnOK;
 
 -(IBAction)clickOK:(id)sender;
+-(IBAction)novoCadastro:(id)sender;
+
 @end

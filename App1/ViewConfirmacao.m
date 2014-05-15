@@ -7,6 +7,7 @@
 //
 
 #import "ViewConfirmacao.h"
+#import "ViewController.h"
 
 @interface ViewConfirmacao ()
 
@@ -39,4 +40,7 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
+-(IBAction)novoCadastro:(id)sender{
+    
+}
 @end

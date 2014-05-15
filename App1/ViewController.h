@@ -14,7 +14,10 @@
 @property (weak, nonatomic) IBOutlet UITextField *txtTelefone;
 @property (weak, nonatomic) IBOutlet UITextField *txtUniversidade;
 @property (weak, nonatomic) IBOutlet UITextField *txtCurso;
+@property (weak, nonatomic) IBOutlet UILabel *labelIdade;
 
+-(IBAction)limpaFields:(id)sender;
+-(IBAction)mudaIdade:(id)sender;
 -(IBAction)clickEnviar:(id)sender;
 
 @end
